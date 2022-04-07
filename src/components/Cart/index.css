@@ -1,0 +1,26 @@
+.my-cart-wrapper{
+    margin-left: 20px;
+}
+
+.my-cart-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.my-cart-clear{
+color: orange;
+cursor: pointer;
+font-size: 22px;
+}
+
+.my-cart-list{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.my-cart-total {
+    display: flex;
+    justify-content: space-between;
+}

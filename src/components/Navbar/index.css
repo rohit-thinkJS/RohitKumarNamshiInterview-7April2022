@@ -1,0 +1,15 @@
+.navbar-wrapper {
+    width: 99%;
+    background-color: red;
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid black;
+    filter: drop-shadow(2mm 0 1mm #000000);
+}
+
+.navbar-text{
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
