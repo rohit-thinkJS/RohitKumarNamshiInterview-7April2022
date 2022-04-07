@@ -16,7 +16,7 @@ const Cart = () => {
             totalPrice += cartList[i]?.price
         }
         setTotal(totalPrice)
-    }, [])
+    }, [cartList])
 
     return (
         <div className='my-cart-wrapper'>

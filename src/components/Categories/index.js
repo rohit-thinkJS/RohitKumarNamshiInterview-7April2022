@@ -13,8 +13,6 @@ const Categories = () => {
         dispatch(fetchCategoriesList())
     }, [])
 
-    console.log({ categoriesList })
-
     return (
         <div>
             <p style={{ fontWeight: "600", fontSize: "22px" }}>Categories</p>
