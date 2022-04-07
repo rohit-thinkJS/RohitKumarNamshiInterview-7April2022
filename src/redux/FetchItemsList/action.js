@@ -24,7 +24,6 @@ export const fetchCategoriesList = () => dispatch => {
 
 
 export const addToCart = (item) => dispatch => {
-    console.log(item, "ACTIOn")
     dispatch({
         type: ADD_TO_CART,
         payload: item
