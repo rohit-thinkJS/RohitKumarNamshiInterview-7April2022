@@ -24,7 +24,7 @@ const Content = () => {
                 itemsList?.map(item => {
                     return (
                         <div className="item-list-view">
-                            <img src={item?.image} className="item-list-image" />
+                            <img alt="items-picture" src={item?.image} className="item-list-image" />
                             <div className='item-list-details'>
                                 <p>{item.title}</p>
                                 <p>&#8377;{item.price}</p>

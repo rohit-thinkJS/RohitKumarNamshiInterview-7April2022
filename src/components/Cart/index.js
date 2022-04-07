@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { removeFromCart, emptyCart } from '../../redux/FetchItemsList/action'
+import { emptyCart } from '../../redux/FetchItemsList/action'
 
 import './index.css'
 
@@ -16,7 +16,7 @@ const Cart = () => {
             totalPrice += cartList[i]?.price
         }
         setTotal(totalPrice)
-    })
+    }, [])
 
     return (
         <div className='my-cart-wrapper'>
